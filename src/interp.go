@@ -684,7 +684,7 @@ func (this *Interpreter) cmdSave(args []string) error {
 		rows = []Row{{"value": *this.single}}
 	}
 	doc := makeDoc(rows)
-	return SaveDoc(this.resolvePath(path), doc, this.key)
+	return SaveDoc(path, doc, this.key)
 }
 
 func makeDoc(rows []Row) Value {
