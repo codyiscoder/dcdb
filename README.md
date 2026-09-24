@@ -1,4 +1,4 @@
-# dcdb
+# [dcdb](https://dcdb.developercody.net/)
 
 A tiny data scripting language. Encrypted `.dcdb` files, a built-in query console,
 and a handful of commands that read, shape, join, and save rows. Standard library
